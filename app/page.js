@@ -5,29 +5,29 @@ export default function Home() {
       <section className="bg-gray-900 text-white">
         <div className="mx-auto max-w-screen-xl px-4 py-32 lg:flex lg:h-screen lg:items-center">
           <div className="mx-auto max-w-3xl text-center">
+
             <h1 className="bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text text-3xl font-extrabold text-transparent sm:text-5xl">
-              Understand User Flow.
-              <span className="sm:block"> Increase Conversion. </span>
+              Enfócate en lo que sabes,
+              <span className="sm:block"> nosotros en el resto. </span>
             </h1>
 
             <p className="mx-auto mt-4 max-w-xl sm:text-xl/relaxed">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt
-              illo tenetur fuga ducimus numquam ea!
+              Concéntrate en la parte operativa de tu negocio. Nosotros en las redes, publicidad, aspectos legales y contables, optimización de procesos, y más.  
             </p>
 
             <div className="mt-8 flex flex-wrap justify-center gap-4">
               <a
-                className="block w-full rounded border border-blue-600 bg-blue-600 px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-white focus:outline-none focus:ring active:text-opacity-75 sm:w-auto"
+                className="block w-full rounded border border-blue-600 bg-purple-700 px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-white focus:outline-none focus:ring active:text-opacity-75 sm:w-auto"
                 href="#"
               >
-                Get Started
+                Comenzar Ahora
               </a>
 
               <a
-                className="block w-full rounded border border-blue-600 px-12 py-3 text-sm font-medium text-white hover:bg-blue-600 focus:outline-none focus:ring active:bg-blue-500 sm:w-auto"
+                className="block w-full rounded border border-blue-600 px-12 py-3 text-sm font-medium text-white hover:bg-purple-700 focus:outline-none focus:ring active:bg-blue-500 sm:w-auto"
                 href="#"
               >
-                Learn More
+                Información
               </a>
             </div>
           </div>
@@ -37,42 +37,24 @@ export default function Home() {
       {/* Acá comienza descripción del servicio y CTA */}
       <section className="bg-gray-900 text-white">
         <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
-          <div className="mx-auto max-w-lg text-center">
-            <h2 className="text-3xl font-bold sm:text-4xl">
-              Kickstart your marketing
+          <div className="mx-auto max-w-2xl text-center">
+            <h2 className="text-3xl font-bold sm:text-4xl pb-4">
+              Potenciá tu negocio
             </h2>
 
-            <p className="mt-4 text-gray-300">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Consequuntur aliquam doloribus nesciunt eos fugiat. Vitae aperiam
-              fugit consequuntur saepe laborum.
+            <p className="mb-8 font-light text-gray-500 lg:mb-16 sm:text-xl dark:text-gray-400">
+              Con nuestros servicios podrás enfocar tus esfuerzos en el desarrollo de tu actividad mientras delegas en nosotros tareas complementarias, lo que permitirá que tengas un crecimiento acelerado.
             </p>
           </div>
 
           <div className="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
-            <a
-              className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
+            <div
+              className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-purple-700 hover:shadow-purple-700/15"
               href="#"
             >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="size-10 text-pink-500"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path d="M12 14l9-5-9-5-9 5 9 5z" />
-                <path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
-                />
-              </svg>
 
               <h2 className="mt-4 text-xl font-bold text-white">
-                Digital campaigns
+               Branding
               </h2>
 
               <p className="mt-1 text-sm text-gray-300">
@@ -80,31 +62,15 @@ export default function Home() {
                 quo possimus adipisci distinctio alias voluptatum blanditiis
                 laudantium.
               </p>
-            </a>
+            </div>
 
-            <a
-              className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
+            <div
+              className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-purple-700 hover:shadow-purple-700/15"
               href="#"
             >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="size-10 text-pink-500"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path d="M12 14l9-5-9-5-9 5 9 5z" />
-                <path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
-                />
-              </svg>
 
               <h2 className="mt-4 text-xl font-bold text-white">
-                Digital campaigns
+                Presencia en Línea
               </h2>
 
               <p className="mt-1 text-sm text-gray-300">
@@ -112,31 +78,15 @@ export default function Home() {
                 quo possimus adipisci distinctio alias voluptatum blanditiis
                 laudantium.
               </p>
-            </a>
+            </div>
 
-            <a
-              className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
+            <div
+              className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-purple-700 hover:shadow-purple-700/15"
               href="#"
             >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="size-10 text-pink-500"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path d="M12 14l9-5-9-5-9 5 9 5z" />
-                <path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
-                />
-              </svg>
-
+ 
               <h2 className="mt-4 text-xl font-bold text-white">
-                Digital campaigns
+                Marketing Digital
               </h2>
 
               <p className="mt-1 text-sm text-gray-300">
@@ -144,31 +94,14 @@ export default function Home() {
                 quo possimus adipisci distinctio alias voluptatum blanditiis
                 laudantium.
               </p>
-            </a>
+            </div>
 
-            <a
-              className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
+            <div
+              className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-purple-700 hover:shadow-purple-700/15"
               href="#"
             >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="size-10 text-pink-500"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path d="M12 14l9-5-9-5-9 5 9 5z" />
-                <path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
-                />
-              </svg>
-
               <h2 className="mt-4 text-xl font-bold text-white">
-                Digital campaigns
+                Consultoría Legal y Contable
               </h2>
 
               <p className="mt-1 text-sm text-gray-300">
@@ -176,31 +109,15 @@ export default function Home() {
                 quo possimus adipisci distinctio alias voluptatum blanditiis
                 laudantium.
               </p>
-            </a>
+            </div>
 
-            <a
-              className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
+            <div
+              className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-purple-700 hover:shadow-purple-700/15"
               href="#"
             >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="size-10 text-pink-500"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path d="M12 14l9-5-9-5-9 5 9 5z" />
-                <path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
-                />
-              </svg>
-
+          
               <h2 className="mt-4 text-xl font-bold text-white">
-                Digital campaigns
+                Auditoría
               </h2>
 
               <p className="mt-1 text-sm text-gray-300">
@@ -208,31 +125,14 @@ export default function Home() {
                 quo possimus adipisci distinctio alias voluptatum blanditiis
                 laudantium.
               </p>
-            </a>
+            </div>
 
-            <a
-              className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
+            <div
+              className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-purple-700 hover:shadow-purple-700/15"
               href="#"
             >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="size-10 text-pink-500"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path d="M12 14l9-5-9-5-9 5 9 5z" />
-                <path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
-                />
-              </svg>
-
               <h2 className="mt-4 text-xl font-bold text-white">
-                Digital campaigns
+                Optimización de Procesos
               </h2>
 
               <p className="mt-1 text-sm text-gray-300">
@@ -240,15 +140,15 @@ export default function Home() {
                 quo possimus adipisci distinctio alias voluptatum blanditiis
                 laudantium.
               </p>
-            </a>
+            </div>
           </div>
 
           <div className="mt-12 text-center">
             <a
               href="#"
-              className="inline-block rounded bg-pink-600 px-12 py-3 text-sm font-medium text-white transition hover:bg-pink-700 focus:outline-none focus:ring focus:ring-yellow-400"
+              className="inline-block rounded bg-purple-700 px-12 py-3 text-sm font-medium text-white transition hover:bg-purple-900 focus:outline-none focus:ring focus:ring-yellow-400"
             >
-              Get Started Today
+              Comenzar Ahora
             </a>
           </div>
         </div>
@@ -256,490 +156,481 @@ export default function Home() {
       {/* -------------------- */}
 
       {/* Acá comienza Testimonials */}
-      <section class="bg-white dark:bg-gray-900">
-        <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-6">
-          <div class="mx-auto max-w-screen-sm">
-            <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
-              Testimonials
+      <section className="bg-white dark:bg-gray-900">
+        <div className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-6">
+          <div className="mx-auto max-w-screen-sm">
+            <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
+              Testimonios
             </h2>
-            <p class="mb-8 font-light text-gray-500 lg:mb-16 sm:text-xl dark:text-gray-400">
-              Explore the whole collection of open-source web components and
-              elements built with the utility classes from Tailwind
+            <p className="mb-8 font-light text-gray-500 lg:mb-16 sm:text-xl dark:text-gray-400">
+              El éxito de nuestros clientes es nuestra mejor publicidad, y su autorrealización nos enorgullece, lo que nos impulsa a dar un servicio de excelencia.
             </p>
           </div>
-          <div class="grid mb-8 lg:mb-12 lg:grid-cols-2">
-            <figure class="flex flex-col justify-center items-center p-8 text-center bg-gray-50 border-b border-gray-200 md:p-12 lg:border-r dark:bg-gray-800 dark:border-gray-700">
-              <blockquote class="mx-auto mb-8 max-w-2xl text-gray-500 dark:text-gray-400">
-                <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
+          <div className="grid mb-8 lg:mb-12 lg:grid-cols-2">
+            <figure className="flex flex-col justify-center items-center p-8 text-center bg-gray-50 border-b border-gray-200 md:p-12 lg:border-r dark:bg-gray-800 dark:border-gray-700">
+              <blockquote className="mx-auto mb-8 max-w-2xl text-gray-500 dark:text-gray-400">
+                <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
                   Speechless with how easy this was to integrate
                 </h3>
-                <p class="my-4">
+                <p className="my-4">
                   "I recently got my hands on Flowbite Pro, and holy crap, I'm
                   speechless with how easy this was to integrate within my
                   application. Most templates are a pain, code is scattered, and
                   near impossible to theme.
                 </p>
-                <p class="my-4">
+                <p className="my-4">
                   Flowbite has code in one place and I'm not joking when I say
                   it took me a matter of minutes to copy the code, customise it
                   and integrate within a Laravel + Vue application.
                 </p>
-                <p class="my-4">
+                <p className="my-4">
                   If you care for your time, I hands down would go with this."
                 </p>
               </blockquote>
-              <figcaption class="flex justify-center items-center space-x-3">
+              <figcaption className="flex justify-center items-center space-x-3">
                 <img
-                  class="w-9 h-9 rounded-full"
+                  className="w-9 h-9 rounded-full"
                   src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/karen-nelson.png"
                   alt="profile picture"
                 ></img>
-                <div class="space-y-0.5 font-medium dark:text-white text-left">
+                <div className="space-y-0.5 font-medium dark:text-white text-left">
                   <div>Bonnie Green</div>
-                  <div class="text-sm font-light text-gray-500 dark:text-gray-400">
+                  <div className="text-sm font-light text-gray-500 dark:text-gray-400">
                     Developer at Open AI
                   </div>
                 </div>
               </figcaption>
             </figure>
-            <figure class="flex flex-col justify-center items-center p-8 text-center bg-gray-50 border-b border-gray-200 md:p-12 dark:bg-gray-800 dark:border-gray-700">
-              <blockquote class="mx-auto mb-8 max-w-2xl text-gray-500 dark:text-gray-400">
-                <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
+            <figure className="flex flex-col justify-center items-center p-8 text-center bg-gray-50 border-b border-gray-200 md:p-12 dark:bg-gray-800 dark:border-gray-700">
+              <blockquote className="mx-auto mb-8 max-w-2xl text-gray-500 dark:text-gray-400">
+                <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
                   Solid foundation for any project
                 </h3>
-                <p class="my-4">
+                <p className="my-4">
                   "FlowBite provides a robust set of design tokens and
                   components based on the popular Tailwind CSS framework. From
                   the most used UI components like forms and navigation bars to
                   the whole app screens designed both for desktop and mobile,
                   this UI kit provides a solid foundation for any project.
                 </p>
-                <p class="my-4">
+                <p className="my-4">
                   Designing with Figma components that can be easily translated
                   to the utility classes of Tailwind CSS is a huge timesaver!"
                 </p>
               </blockquote>
-              <figcaption class="flex justify-center items-center space-x-3">
+              <figcaption className="flex justify-center items-center space-x-3">
                 <img
-                  class="w-9 h-9 rounded-full"
+                  className="w-9 h-9 rounded-full"
                   src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/roberta-casas.png"
                   alt="profile picture"
                 ></img>
-                <div class="space-y-0.5 font-medium dark:text-white text-left">
+                <div className="space-y-0.5 font-medium dark:text-white text-left">
                   <div>Roberta Casas</div>
-                  <div class="text-sm font-light text-gray-500 dark:text-gray-400">
+                  <div className="text-sm font-light text-gray-500 dark:text-gray-400">
                     Lead designer at Dropbox
                   </div>
                 </div>
               </figcaption>
             </figure>
-            <figure class="flex flex-col justify-center items-center p-8 text-center bg-gray-50 border-b border-gray-200 lg:border-b-0 md:p-12 lg:border-r dark:bg-gray-800 dark:border-gray-700">
-              <blockquote class="mx-auto mb-8 max-w-2xl text-gray-500 dark:text-gray-400">
-                <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
+            <figure className="flex flex-col justify-center items-center p-8 text-center bg-gray-50 border-b border-gray-200 lg:border-b-0 md:p-12 lg:border-r dark:bg-gray-800 dark:border-gray-700">
+              <blockquote className="mx-auto mb-8 max-w-2xl text-gray-500 dark:text-gray-400">
+                <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
                   Mindblowing workflow and variants
                 </h3>
-                <p class="my-4">
+                <p className="my-4">
                   "As someone who mainly designs in the browser, I've been a
                   casual user of Figma, but as soon as I saw and started playing
                   with FlowBite my mind was 🤯.
                 </p>
-                <p class="my-4">
+                <p className="my-4">
                   Everything is so well structured and simple to use (I've
                   learnt so much about Figma by just using the toolkit).
                 </p>
-                <p class="my-4">
+                <p className="my-4">
                   Aesthetically, the well designed components are beautiful and
                   will undoubtedly level up your next application."
                 </p>
               </blockquote>
-              <figcaption class="flex justify-center items-center space-x-3">
+              <figcaption className="flex justify-center items-center space-x-3">
                 <img
-                  class="w-9 h-9 rounded-full"
+                  className="w-9 h-9 rounded-full"
                   src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/jese-leos.png"
                   alt="profile picture"
                 ></img>
-                <div class="space-y-0.5 font-medium dark:text-white text-left">
+                <div className="space-y-0.5 font-medium dark:text-white text-left">
                   <div>Jese Leos</div>
-                  <div class="text-sm font-light text-gray-500 dark:text-gray-400">
+                  <div className="text-sm font-light text-gray-500 dark:text-gray-400">
                     Software Engineer at Facebook
                   </div>
                 </div>
               </figcaption>
             </figure>
-            <figure class="flex flex-col justify-center items-center p-8 text-center bg-gray-50 border-gray-200 md:p-12 dark:bg-gray-800 dark:border-gray-700">
-              <blockquote class="mx-auto mb-8 max-w-2xl text-gray-500 dark:text-gray-400">
-                <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
+            <figure className="flex flex-col justify-center items-center p-8 text-center bg-gray-50 border-gray-200 md:p-12 dark:bg-gray-800 dark:border-gray-700">
+              <blockquote className="mx-auto mb-8 max-w-2xl text-gray-500 dark:text-gray-400">
+                <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
                   Efficient Collaborating
                 </h3>
-                <p class="my-4">
+                <p className="my-4">
                   "This is a very complex and beautiful set of elements. Under
                   the hood it comes with the best things from 2 different
                   worlds: Figma and Tailwind.
                 </p>
-                <p class="my-4">
+                <p className="my-4">
                   You have many examples that can be used to create a fast
                   prototype for your team."
                 </p>
               </blockquote>
-              <figcaption class="flex justify-center items-center space-x-3">
+              <figcaption className="flex justify-center items-center space-x-3">
                 <img
-                  class="w-9 h-9 rounded-full"
+                  className="w-9 h-9 rounded-full"
                   src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/joseph-mcfall.png"
                   alt="profile picture"
                 ></img>
-                <div class="space-y-0.5 font-medium dark:text-white text-left">
+                <div className="space-y-0.5 font-medium dark:text-white text-left">
                   <div>Joseph McFall</div>
-                  <div class="text-sm font-light text-gray-500 dark:text-gray-400">
+                  <div className="text-sm font-light text-gray-500 dark:text-gray-400">
                     CTO at Google
                   </div>
                 </div>
               </figcaption>
             </figure>
           </div>
-          <div class="text-center">
-            <a
-              href="#"
-              class="py-2.5 px-5 mr-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
-            >
-              Show more...
-            </a>
-          </div>
         </div>
       </section>
       {/* -------------------- */}
 
       {/* Acá comienza Pricing */}
-      <section class="bg-white dark:bg-gray-900">
-        <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
-          <div class="mx-auto max-w-screen-md text-center mb-8 lg:mb-12">
-            <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
+      <section className="bg-white dark:bg-gray-900">
+        <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
+          <div className="mx-auto max-w-screen-md text-center mb-8 lg:mb-12">
+            <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
               Designed for business teams like yours
             </h2>
-            <p class="mb-5 font-light text-gray-500 sm:text-xl dark:text-gray-400">
+            <p className="mb-5 font-light text-gray-500 sm:text-xl dark:text-gray-400">
               Here at Flowbite we focus on markets where technology, innovation,
               and capital can unlock long-term value and drive economic growth.
             </p>
           </div>
-          <div class="space-y-8 lg:grid lg:grid-cols-3 sm:gap-6 xl:gap-10 lg:space-y-0">
+          <div className="space-y-8 lg:grid lg:grid-cols-3 sm:gap-6 xl:gap-10 lg:space-y-0">
             {/* <!-- Pricing Card --> */}
-            <div class="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
-              <h3 class="mb-4 text-2xl font-semibold">Starter</h3>
-              <p class="font-light text-gray-500 sm:text-lg dark:text-gray-400">
+            <div className="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
+              <h3 className="mb-4 text-2xl font-semibold">Starter</h3>
+              <p className="font-light text-gray-500 sm:text-lg dark:text-gray-400">
                 Best option for personal use & for your next project.
               </p>
-              <div class="flex justify-center items-baseline my-8">
-                <span class="mr-2 text-5xl font-extrabold">$29</span>
-                <span class="text-gray-500 dark:text-gray-400">/month</span>
+              <div className="flex justify-center items-baseline my-8">
+                <span className="mr-2 text-5xl font-extrabold">$29</span>
+                <span className="text-gray-500 dark:text-gray-400">/month</span>
               </div>
               {/* <!-- List --> */}
-              <ul role="list" class="mb-8 space-y-4 text-left">
-                <li class="flex items-center space-x-3">
+              <ul role="list" className="mb-8 space-y-4 text-left">
+                <li className="flex items-center space-x-3">
                   {/* <!-- Icon --> */}
                   <svg
-                    class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
+                    className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
                     fill="currentColor"
                     viewBox="0 0 20 20"
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
-                      fill-rule="evenodd"
+                      fillRule="evenodd"
                       d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                      clip-rule="evenodd"
+                      clipRule="evenodd"
                     ></path>
                   </svg>
                   <span>Individual configuration</span>
                 </li>
-                <li class="flex items-center space-x-3">
+                <li className="flex items-center space-x-3">
                   {/* <!-- Icon --> */}
                   <svg
-                    class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
+                    className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
                     fill="currentColor"
                     viewBox="0 0 20 20"
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
-                      fill-rule="evenodd"
+                      fillRule="evenodd"
                       d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                      clip-rule="evenodd"
+                      clipRule="evenodd"
                     ></path>
                   </svg>
                   <span>No setup, or hidden fees</span>
                 </li>
-                <li class="flex items-center space-x-3">
+                <li className="flex items-center space-x-3">
                   {/* <!-- Icon --> */}
                   <svg
-                    class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
+                    className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
                     fill="currentColor"
                     viewBox="0 0 20 20"
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
-                      fill-rule="evenodd"
+                      fillRule="evenodd"
                       d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                      clip-rule="evenodd"
+                      clipRule="evenodd"
                     ></path>
                   </svg>
                   <span>
-                    Team size: <span class="font-semibold">1 developer</span>
+                    Team size: <span className="font-semibold">1 developer</span>
                   </span>
                 </li>
-                <li class="flex items-center space-x-3">
+                <li className="flex items-center space-x-3">
                   {/* <!-- Icon --> */}
                   <svg
-                    class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
+                    className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
                     fill="currentColor"
                     viewBox="0 0 20 20"
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
-                      fill-rule="evenodd"
+                      fillRule="evenodd"
                       d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                      clip-rule="evenodd"
+                      clipRule="evenodd"
                     ></path>
                   </svg>
                   <span>
-                    Premium support: <span class="font-semibold">6 months</span>
+                    Premium support: <span className="font-semibold">6 months</span>
                   </span>
                 </li>
-                <li class="flex items-center space-x-3">
+                <li className="flex items-center space-x-3">
                   {/* <!-- Icon --> */}
                   <svg
-                    class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
+                    className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
                     fill="currentColor"
                     viewBox="0 0 20 20"
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
-                      fill-rule="evenodd"
+                      fillRule="evenodd"
                       d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                      clip-rule="evenodd"
+                      clipRule="evenodd"
                     ></path>
                   </svg>
                   <span>
-                    Free updates: <span class="font-semibold">6 months</span>
+                    Free updates: <span className="font-semibold">6 months</span>
                   </span>
                 </li>
               </ul>
               <a
                 href="#"
-                class="text-white bg-primary-600 hover:bg-primary-700 focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-primary-900"
+                className="text-white bg-primary-600 hover:bg-primary-700 focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-primary-900"
               >
-                Get started
+                Contratar
               </a>
             </div>
             {/* <!-- Pricing Card --> */}
-            <div class="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
-              <h3 class="mb-4 text-2xl font-semibold">Company</h3>
-              <p class="font-light text-gray-500 sm:text-lg dark:text-gray-400">
+            <div className="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
+              <h3 className="mb-4 text-2xl font-semibold">Company</h3>
+              <p className="font-light text-gray-500 sm:text-lg dark:text-gray-400">
                 Relevant for multiple users, extended & premium support.
               </p>
-              <div class="flex justify-center items-baseline my-8">
-                <span class="mr-2 text-5xl font-extrabold">$99</span>
-                <span class="text-gray-500 dark:text-gray-400">/month</span>
+              <div className="flex justify-center items-baseline my-8">
+                <span className="mr-2 text-5xl font-extrabold">$99</span>
+                <span className="text-gray-500 dark:text-gray-400">/month</span>
               </div>
               {/* <!-- List --> */}
-              <ul role="list" class="mb-8 space-y-4 text-left">
-                <li class="flex items-center space-x-3">
+              <ul role="list" className="mb-8 space-y-4 text-left">
+                <li className="flex items-center space-x-3">
                   {/* <!-- Icon --> */}
                   <svg
-                    class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
+                    className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
                     fill="currentColor"
                     viewBox="0 0 20 20"
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
-                      fill-rule="evenodd"
+                      fillRule="evenodd"
                       d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                      clip-rule="evenodd"
+                      clipRule="evenodd"
                     ></path>
                   </svg>
                   <span>Individual configuration</span>
                 </li>
-                <li class="flex items-center space-x-3">
+                <li className="flex items-center space-x-3">
                   {/* <!-- Icon --> */}
                   <svg
-                    class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
+                    className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
                     fill="currentColor"
                     viewBox="0 0 20 20"
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
-                      fill-rule="evenodd"
+                      fillRule="evenodd"
                       d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                      clip-rule="evenodd"
+                      clipRule="evenodd"
                     ></path>
                   </svg>
                   <span>No setup, or hidden fees</span>
                 </li>
-                <li class="flex items-center space-x-3">
+                <li className="flex items-center space-x-3">
                   {/* <!-- Icon --> */}
                   <svg
-                    class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
+                    className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
                     fill="currentColor"
                     viewBox="0 0 20 20"
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
-                      fill-rule="evenodd"
+                      fillRule="evenodd"
                       d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                      clip-rule="evenodd"
+                      clipRule="evenodd"
                     ></path>
                   </svg>
                   <span>
-                    Team size: <span class="font-semibold">10 developers</span>
+                    Team size: <span className="font-semibold">10 developers</span>
                   </span>
                 </li>
-                <li class="flex items-center space-x-3">
+                <li className="flex items-center space-x-3">
                   {/* <!-- Icon --> */}
                   <svg
-                    class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
+                    className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
                     fill="currentColor"
                     viewBox="0 0 20 20"
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
-                      fill-rule="evenodd"
+                      fillRule="evenodd"
                       d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                      clip-rule="evenodd"
+                      clipRule="evenodd"
                     ></path>
                   </svg>
                   <span>
                     Premium support:{" "}
-                    <span class="font-semibold">24 months</span>
+                    <span className="font-semibold">24 months</span>
                   </span>
                 </li>
-                <li class="flex items-center space-x-3">
+                <li className="flex items-center space-x-3">
                   {/* <!-- Icon --> */}
                   <svg
-                    class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
+                    className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
                     fill="currentColor"
                     viewBox="0 0 20 20"
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
-                      fill-rule="evenodd"
+                      fillRule="evenodd"
                       d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                      clip-rule="evenodd"
+                      clipRule="evenodd"
                     ></path>
                   </svg>
                   <span>
-                    Free updates: <span class="font-semibold">24 months</span>
+                    Free updates: <span className="font-semibold">24 months</span>
                   </span>
                 </li>
               </ul>
               <a
                 href="#"
-                class="text-white bg-primary-600 hover:bg-primary-700 focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-primary-900"
+                className="text-white bg-primary-600 hover:bg-primary-700 focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-primary-900"
               >
-                Get started
+                Contratar
               </a>
             </div>
             {/* <!-- Pricing Card --> */}
-            <div class="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
-              <h3 class="mb-4 text-2xl font-semibold">Enterprise</h3>
-              <p class="font-light text-gray-500 sm:text-lg dark:text-gray-400">
+            <div className="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
+              <h3 className="mb-4 text-2xl font-semibold">Enterprise</h3>
+              <p className="font-light text-gray-500 sm:text-lg dark:text-gray-400">
                 Best for large scale uses and extended redistribution rights.
               </p>
-              <div class="flex justify-center items-baseline my-8">
-                <span class="mr-2 text-5xl font-extrabold">$499</span>
-                <span class="text-gray-500 dark:text-gray-400">/month</span>
+              <div className="flex justify-center items-baseline my-8">
+                <span className="mr-2 text-5xl font-extrabold">$499</span>
+                <span className="text-gray-500 dark:text-gray-400">/month</span>
               </div>
               {/* <!-- List --> */}
-              <ul role="list" class="mb-8 space-y-4 text-left">
-                <li class="flex items-center space-x-3">
+              <ul role="list" className="mb-8 space-y-4 text-left">
+                <li className="flex items-center space-x-3">
                   {/* <!-- Icon --> */}
                   <svg
-                    class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
+                    className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
                     fill="currentColor"
                     viewBox="0 0 20 20"
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
-                      fill-rule="evenodd"
+                      fillRule="evenodd"
                       d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                      clip-rule="evenodd"
+                      clipRule="evenodd"
                     ></path>
                   </svg>
                   <span>Individual configuration</span>
                 </li>
-                <li class="flex items-center space-x-3">
+                <li className="flex items-center space-x-3">
                   {/* <!-- Icon --> */}
                   <svg
-                    class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
+                    className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
                     fill="currentColor"
                     viewBox="0 0 20 20"
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
-                      fill-rule="evenodd"
+                      fillRule="evenodd"
                       d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                      clip-rule="evenodd"
+                      clipRule="evenodd"
                     ></path>
                   </svg>
                   <span>No setup, or hidden fees</span>
                 </li>
-                <li class="flex items-center space-x-3">
+                <li className="flex items-center space-x-3">
                   {/* <!-- Icon --> */}
                   <svg
-                    class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
+                    className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
                     fill="currentColor"
                     viewBox="0 0 20 20"
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
-                      fill-rule="evenodd"
+                      fillRule="evenodd"
                       d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                      clip-rule="evenodd"
+                      clipRule="evenodd"
                     ></path>
                   </svg>
                   <span>
                     Team size:{" "}
-                    <span class="font-semibold">100+ developers</span>
+                    <span className="font-semibold">100+ developers</span>
                   </span>
                 </li>
-                <li class="flex items-center space-x-3">
+                <li className="flex items-center space-x-3">
                   {/* <!-- Icon --> */}
                   <svg
-                    class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
+                    className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
                     fill="currentColor"
                     viewBox="0 0 20 20"
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
-                      fill-rule="evenodd"
+                      fillRule="evenodd"
                       d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                      clip-rule="evenodd"
+                      clipRule="evenodd"
                     ></path>
                   </svg>
                   <span>
                     Premium support:{" "}
-                    <span class="font-semibold">36 months</span>
+                    <span className="font-semibold">36 months</span>
                   </span>
                 </li>
-                <li class="flex items-center space-x-3">
+                <li className="flex items-center space-x-3">
                   {/* <!-- Icon --> */}
                   <svg
-                    class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
+                    className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
                     fill="currentColor"
                     viewBox="0 0 20 20"
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
-                      fill-rule="evenodd"
+                      fillRule="evenodd"
                       d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                      clip-rule="evenodd"
+                      clipRule="evenodd"
                     ></path>
                   </svg>
                   <span>
-                    Free updates: <span class="font-semibold">36 months</span>
+                    Free updates: <span className="font-semibold">36 months</span>
                   </span>
                 </li>
               </ul>
               <a
                 href="#"
-                class="text-white bg-primary-600 hover:bg-primary-700 focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-primary-900"
+                className="text-white bg-primary-600 hover:bg-primary-700 focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-primary-900"
               >
-                Get started
+                Contratar
               </a>
             </div>
           </div>
@@ -1461,9 +1352,9 @@ export default function Home() {
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
-                      fill-rule="evenodd"
+                      fillRule="evenodd"
                       d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z"
-                      clip-rule="evenodd"
+                      clipRule="evenodd"
                     ></path>
                   </svg>
                   What do you mean by "Figma assets"?
@@ -1484,9 +1375,9 @@ export default function Home() {
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
-                      fill-rule="evenodd"
+                      fillRule="evenodd"
                       d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z"
-                      clip-rule="evenodd"
+                      clipRule="evenodd"
                     ></path>
                   </svg>
                   What does "lifetime access" exactly mean?
@@ -1506,9 +1397,9 @@ export default function Home() {
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
-                      fill-rule="evenodd"
+                      fillRule="evenodd"
                       d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z"
-                      clip-rule="evenodd"
+                      clipRule="evenodd"
                     ></path>
                   </svg>
                   How does support work?
@@ -1540,9 +1431,9 @@ export default function Home() {
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
-                      fill-rule="evenodd"
+                      fillRule="evenodd"
                       d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z"
-                      clip-rule="evenodd"
+                      clipRule="evenodd"
                     ></path>
                   </svg>
                   I want to build more than one project. Is that allowed?
@@ -1576,9 +1467,9 @@ export default function Home() {
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
-                      fill-rule="evenodd"
+                      fillRule="evenodd"
                       d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z"
-                      clip-rule="evenodd"
+                      clipRule="evenodd"
                     ></path>
                   </svg>
                   What does "free updates" include?
@@ -1605,9 +1496,9 @@ export default function Home() {
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
-                      fill-rule="evenodd"
+                      fillRule="evenodd"
                       d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z"
-                      clip-rule="evenodd"
+                      clipRule="evenodd"
                     ></path>
                   </svg>
                   What does the free version include?
@@ -1638,9 +1529,9 @@ export default function Home() {
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
-                      fill-rule="evenodd"
+                      fillRule="evenodd"
                       d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z"
-                      clip-rule="evenodd"
+                      clipRule="evenodd"
                     ></path>
                   </svg>
                   What is the difference between Windster and Tailwind UI?
@@ -1666,9 +1557,9 @@ export default function Home() {
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
-                      fill-rule="evenodd"
+                      fillRule="evenodd"
                       d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z"
-                      clip-rule="evenodd"
+                      clipRule="evenodd"
                     ></path>
                   </svg>
                   Can I use Windster in open-source projects?
