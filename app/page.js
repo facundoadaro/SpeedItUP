@@ -146,7 +146,7 @@ export default function Home() {
           <div className="mt-12 text-center">
             <a
               href="#"
-              className="inline-block rounded bg-purple-700 px-12 py-3 text-sm font-medium text-white transition hover:bg-purple-900 focus:outline-none focus:ring focus:ring-yellow-400"
+              className="inline-block rounded bg-purple-700 px-12 py-3 text-sm font-medium text-white transition hover:bg-purple-900 focus:outline-none focus:ring focus:ring-blue-800"
             >
               Comenzar Ahora
             </a>
@@ -313,7 +313,7 @@ export default function Home() {
           </div>
           <div className="space-y-8 lg:grid lg:grid-cols-3 sm:gap-6 xl:gap-10 lg:space-y-0">
             {/* <!-- Pricing Card --> */}
-            <div className="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
+            <div className="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white shadow-xl transition hover:border-purple-700 hover:shadow-purple-700">
               <h3 className="mb-4 text-2xl font-semibold">Starter</h3>
               <p className="font-light text-gray-500 sm:text-lg dark:text-gray-400">
                 Best option for personal use & for your next project.
@@ -413,13 +413,13 @@ export default function Home() {
               </ul>
               <a
                 href="#"
-                className="text-white bg-primary-600 hover:bg-primary-700 focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-primary-900"
+                className="text-white bg-purple-700 hover:bg-purple-900 focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-primary-900"
               >
                 Contratar
               </a>
             </div>
             {/* <!-- Pricing Card --> */}
-            <div className="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
+            <div className="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white shadow-xl transition hover:border-purple-700 hover:shadow-purple-700">
               <h3 className="mb-4 text-2xl font-semibold">Company</h3>
               <p className="font-light text-gray-500 sm:text-lg dark:text-gray-400">
                 Relevant for multiple users, extended & premium support.
@@ -520,13 +520,13 @@ export default function Home() {
               </ul>
               <a
                 href="#"
-                className="text-white bg-primary-600 hover:bg-primary-700 focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-primary-900"
+                className="text-white bg-purple-700 hover:bg-purple-900 focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-primary-900"
               >
                 Contratar
               </a>
             </div>
             {/* <!-- Pricing Card --> */}
-            <div className="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
+            <div className="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white shadow-xl transition hover:border-purple-700 hover:shadow-purple-700">
               <h3 className="mb-4 text-2xl font-semibold">Enterprise</h3>
               <p className="font-light text-gray-500 sm:text-lg dark:text-gray-400">
                 Best for large scale uses and extended redistribution rights.
@@ -628,7 +628,7 @@ export default function Home() {
               </ul>
               <a
                 href="#"
-                className="text-white bg-primary-600 hover:bg-primary-700 focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-primary-900"
+                className="text-white bg-purple-700 hover:bg-purple-900 focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-primary-900"
               >
                 Contratar
               </a>
