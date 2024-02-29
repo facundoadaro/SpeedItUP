@@ -284,11 +284,10 @@ export default function Home() {
         <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
           <div className="mx-auto max-w-screen-md text-center mb-8 lg:mb-12">
             <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
-              Designed for business teams like yours
+              Diseñado para cumplir con tus necesidades
             </h2>
             <p className="mb-5 font-light text-gray-500 sm:text-xl dark:text-gray-400">
-              Here at Flowbite we focus on markets where technology, innovation,
-              and capital can unlock long-term value and drive economic growth.
+              Ofrecemos tres opciones de contratación para simplificarte la vida, aunque si lo precisas podemos dar una solución a medida.
             </p>
           </div>
           <div className="space-y-8 lg:grid lg:grid-cols-3 sm:gap-6 xl:gap-10 lg:space-y-0">
@@ -296,7 +295,7 @@ export default function Home() {
             <div className="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white shadow-xl transition hover:border-purple-700 hover:shadow-purple-700">
               <h3 className="mb-4 text-2xl font-semibold">Básico</h3>
               <p className="font-light text-gray-500 sm:text-lg dark:text-gray-400">
-                Best option for personal use & for your next project.
+                "Tengo en claro que hacer, pero me vendría bien un poco de ayuda."
               </p>
               <div className="flex justify-center items-baseline my-8">
                 <span className="mr-2 text-5xl font-extrabold">$29</span>
@@ -406,7 +405,7 @@ export default function Home() {
             <div className="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white shadow-xl transition hover:border-purple-700 hover:shadow-purple-700">
               <h3 className="mb-4 text-2xl font-semibold">Intermedio</h3>
               <p className="font-light text-gray-500 sm:text-lg dark:text-gray-400">
-                Relevant for multiple users, extended & premium support.
+                Necesito que me acompañen en el proceso.
               </p>
               <div className="flex justify-center items-baseline my-8">
                 <span className="mr-2 text-5xl font-extrabold">$99</span>
@@ -516,7 +515,7 @@ export default function Home() {
             <div className="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white shadow-xl transition hover:border-purple-700 hover:shadow-purple-700">
               <h3 className="mb-4 text-2xl font-semibold">Avanzado</h3>
               <p className="font-light text-gray-500 sm:text-lg dark:text-gray-400">
-                Best for large scale uses and extended redistribution rights.
+                "Tengo una idea pero no se por donde comenzar ni que hacer."
               </p>
               <div className="flex justify-center items-baseline my-8">
                 <span className="mr-2 text-5xl font-extrabold">$499</span>
@@ -644,8 +643,7 @@ export default function Home() {
               Nuestro Equipo
             </h2>
             <p className="font-light text-gray-500 sm:text-xl dark:text-gray-400">
-              Explore the whole collection of open-source web components and
-              elements built with the utility classes from Tailwind
+              Un equipo altamente diversificado en su formación pero con la misma visión y vocación.
             </p>
           </div>
           <div className="grid gap-8 lg:gap-16 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
@@ -704,6 +702,7 @@ export default function Home() {
               </h3>
               <p>Diseñador</p>
             </div>
+            {/*
             <div className="text-center text-gray-500 dark:text-gray-400">
               <img
                 className="mx-auto mb-4 w-36 h-36 rounded-full"
@@ -715,7 +714,6 @@ export default function Home() {
               </h3>
               <p>Abogada</p>
             </div>
-            {/*
             <div className="text-center text-gray-500 dark:text-gray-400">
               <img
                 className="mx-auto mb-4 w-36 h-36 rounded-full"
