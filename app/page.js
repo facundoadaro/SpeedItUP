@@ -60,9 +60,9 @@ export default function Home() {
               <h2 className="mt-4 text-xl font-bold text-white">Branding</h2>
 
               <p className="mt-1 text-sm text-gray-300">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut
-                quo possimus adipisci distinctio alias voluptatum blanditiis
-                laudantium.
+                Investigación de mercado, definición de identidad y nombre de
+                marca, diseño de logo, creación de identidad visual, desarrollo
+                e implementación de marca.
               </p>
             </div>
 
@@ -75,9 +75,8 @@ export default function Home() {
               </h2>
 
               <p className="mt-1 text-sm text-gray-300">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut
-                quo possimus adipisci distinctio alias voluptatum blanditiis
-                laudantium.
+                Gestión de redes sociales, calendario de contenidos y clientes,
+                creación de catálogos, diseño de Landing Page y/o E-Commerce.
               </p>
             </div>
 
@@ -90,9 +89,10 @@ export default function Home() {
               </h2>
 
               <p className="mt-1 text-sm text-gray-300">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut
-                quo possimus adipisci distinctio alias voluptatum blanditiis
-                laudantium.
+                E-mail marketing, campañas publicitarias en Google y Meta Ads,
+                publicidad en revistas, folletos y diarios, banners
+                publicitarios, eventos, promociones en punto de venta y
+                merchandising.
               </p>
             </div>
 
@@ -103,12 +103,9 @@ export default function Home() {
               <h2 className="mt-4 text-xl font-bold text-white">
                 Consultoría Legal y Contable
               </h2>
-
+              {/* 
               <p className="mt-1 text-sm text-gray-300">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut
-                quo possimus adipisci distinctio alias voluptatum blanditiis
-                laudantium.
-              </p>
+              </p> */}
             </div>
 
             <div
@@ -117,11 +114,8 @@ export default function Home() {
             >
               <h2 className="mt-4 text-xl font-bold text-white">Auditoría</h2>
 
-              <p className="mt-1 text-sm text-gray-300">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut
-                quo possimus adipisci distinctio alias voluptatum blanditiis
-                laudantium.
-              </p>
+              {/* <p className="mt-1 text-sm text-gray-300">
+              </p> */}
             </div>
 
             <div
@@ -133,9 +127,9 @@ export default function Home() {
               </h2>
 
               <p className="mt-1 text-sm text-gray-300">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut
-                quo possimus adipisci distinctio alias voluptatum blanditiis
-                laudantium.
+                Revisión de objetivos empresariales a corto, mediano y largo
+                plazo, optimización y documentación de procesos clave, monitoreo
+                de avances con Indicadores de Performance (KPIs).
               </p>
             </div>
           </div>
@@ -154,7 +148,7 @@ export default function Home() {
       {/* -------------------- */}
 
       {/* Acá comienza Testimonials */}
-      <section className="bg-white dark:bg-gray-900">
+      {/* <section className="bg-white dark:bg-gray-900">
         <div className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-6">
           <div className="mx-auto max-w-screen-sm">
             <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
@@ -276,7 +270,7 @@ export default function Home() {
             </figure>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* -------------------- */}
 
       {/* Acá comienza Pricing */}
@@ -355,7 +349,8 @@ export default function Home() {
                     ></path>
                   </svg>
                   <span>
-                    Respuesta automática a clientes{/* {" "}
+                    Respuesta automática a clientes
+                    {/* {" "}
                     <span className="font-semibold"></span> */}
                   </span>
                 </li>
@@ -507,7 +502,7 @@ export default function Home() {
                   </svg>
                   <span>
                     Consultoría con Abogado y Contador:{" "}
-                    <span className="font-semibold">3h</span>
+                    <span className="font-semibold">3h c/u</span>
                   </span>
                 </li>
               </ul>
@@ -523,7 +518,8 @@ export default function Home() {
             <div className="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white shadow-xl transition hover:border-purple-700 hover:shadow-purple-700">
               <h3 className="mb-4 text-2xl font-semibold">Avanzado</h3>
               <p className="font-light text-gray-500 sm:text-lg dark:text-gray-400">
-                {/* "Tengo una idea pero no se por donde comenzar ni que hacer." */} Asistencia integral intensiva para tu negocio
+                {/* "Tengo una idea pero no se por donde comenzar ni que hacer." */}{" "}
+                Asistencia integral intensiva para tu negocio
               </p>
               <div className="flex justify-center items-baseline my-8">
                 <span className="mr-2 text-5xl font-extrabold">$139.900</span>
@@ -619,7 +615,7 @@ export default function Home() {
                   </svg>
                   <span>
                     Consultoría con Abogado y Contador:{" "}
-                    <span className="font-semibold">4h</span>
+                    <span className="font-semibold">4h c/u</span>
                   </span>
                 </li>
               </ul>
@@ -680,7 +676,7 @@ export default function Home() {
               </h3>
               <p>Ingeniero Industrial | Desarrollador</p>
             </div>
-            <div className="text-center text-gray-500 dark:text-gray-400">
+            {/* <div className="text-center text-gray-500 dark:text-gray-400">
               <img
                 className="mx-auto mb-4 w-36 h-36 rounded-full"
                 src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/jese-leos.png"
@@ -690,11 +686,11 @@ export default function Home() {
                 Flavia Nobile
               </h3>
               <p>Contadora</p>
-            </div>
+            </div> */}
             <div className="text-center text-gray-500 dark:text-gray-400">
               <img
                 className="mx-auto mb-4 w-36 h-36 rounded-full"
-                src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/joseph-mcfall.png"
+                src="imagenAntonella.jpeg"
                 alt="Antonella Stancado"
               ></img>
               <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
@@ -752,7 +748,7 @@ export default function Home() {
       </section>
 
       {/* Acá comienzan FAQs */}
-      <section className="bg-white dark:bg-gray-900" id="faqs">
+      {/* <section className="bg-white dark:bg-gray-900" id="faqs">
         <div className="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
           <h2 className="mb-8 text-4xl text-center tracking-tight font-extrabold text-gray-900 dark:text-white">
             Consultas Frecuentes
@@ -1004,7 +1000,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* -------------------- */}
     </>
   );
