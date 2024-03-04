@@ -15,11 +15,11 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <SpeedInsights>
+        <SpeedInsights></SpeedInsights>
           <Header></Header>
           {children}
           <Footer></Footer>
-        </SpeedInsights>
+        
       </body>
     </html>
   );
