@@ -1,4 +1,5 @@
 import { Inter } from "next/font/google";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import "./globals.css";
 import Header from "./ui/header";
 import Footer from "./ui/footer";
@@ -14,9 +15,11 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <Header></Header>
-        {children}
-        <Footer></Footer>
+        <SpeedInsights>
+          <Header></Header>
+          {children}
+          <Footer></Footer>
+        </SpeedInsights>
       </body>
     </html>
   );
