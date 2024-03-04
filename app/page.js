@@ -25,12 +25,12 @@ export default function Home() {
                 Comenzar Ahora
               </a>
 
-              <a
+              {/* <a
                 className="block w-full rounded border border-blue-600 px-12 py-3 text-sm font-medium text-white hover:bg-purple-700 focus:outline-none focus:ring active:bg-blue-500 sm:w-auto"
                 href="#faqs"
               >
                 Información
-              </a>
+              </a> */}
             </div>
           </div>
         </div>
