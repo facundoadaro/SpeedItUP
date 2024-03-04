@@ -86,7 +86,7 @@ export default function Home() {
               href="#"
             >
               <h2 className="mt-4 text-xl font-bold text-white">
-                Marketing Digital
+                Marketing Digital y Tradicional
               </h2>
 
               <p className="mt-1 text-sm text-gray-300">
@@ -287,7 +287,8 @@ export default function Home() {
               Diseñado para cumplir con tus necesidades
             </h2>
             <p className="mb-5 font-light text-gray-500 sm:text-xl dark:text-gray-400">
-              Ofrecemos tres opciones de contratación para simplificarte la vida, aunque si lo precisas podemos dar una solución a medida.
+              Ofrecemos tres opciones de contratación para simplificarte la
+              vida, aunque si lo precisas podemos dar una solución a medida.
             </p>
           </div>
           <div className="space-y-8 lg:grid lg:grid-cols-3 sm:gap-6 xl:gap-10 lg:space-y-0">
@@ -295,11 +296,15 @@ export default function Home() {
             <div className="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white shadow-xl transition hover:border-purple-700 hover:shadow-purple-700">
               <h3 className="mb-4 text-2xl font-semibold">Básico</h3>
               <p className="font-light text-gray-500 sm:text-lg dark:text-gray-400">
-                "Tengo en claro que hacer, pero me vendría bien un poco de ayuda."
+                {/* "Tengo en claro que hacer, pero me vendría bien un poco de
+                ayuda." */}{" "}
+                Un pequeño empujón para asistirte con tus tareas
               </p>
               <div className="flex justify-center items-baseline my-8">
-                <span className="mr-2 text-5xl font-extrabold">$29</span>
-                <span className="text-gray-500 dark:text-gray-400">/month</span>
+                <span className="mr-2 text-5xl font-extrabold">$69.900</span>
+                <span className="text-gray-500 text-2xl dark:text-gray-400">
+                  /mes
+                </span>
               </div>
               {/* <!-- List --> */}
               <ul role="list" className="mb-8 space-y-4 text-left">
@@ -317,7 +322,7 @@ export default function Home() {
                       clipRule="evenodd"
                     ></path>
                   </svg>
-                  <span>Individual configuration</span>
+                  <span>Autogestión de calendario</span>
                 </li>
                 <li className="flex items-center space-x-3">
                   {/* <!-- Icon --> */}
@@ -333,7 +338,7 @@ export default function Home() {
                       clipRule="evenodd"
                     ></path>
                   </svg>
-                  <span>No setup, or hidden fees</span>
+                  <span>Campañas publicitarias: 1</span>
                 </li>
                 <li className="flex items-center space-x-3">
                   {/* <!-- Icon --> */}
@@ -350,8 +355,8 @@ export default function Home() {
                     ></path>
                   </svg>
                   <span>
-                    Team size:{" "}
-                    <span className="font-semibold">1 developer</span>
+                    Respuesta automática a clientes{/* {" "}
+                    <span className="font-semibold"></span> */}
                   </span>
                 </li>
                 <li className="flex items-center space-x-3">
@@ -369,8 +374,8 @@ export default function Home() {
                     ></path>
                   </svg>
                   <span>
-                    Premium support:{" "}
-                    <span className="font-semibold">6 months</span>
+                    Sugerencias de recursos{" "}
+                    {/* <span className="font-semibold">1h c/u</span> */}
                   </span>
                 </li>
                 <li className="flex items-center space-x-3">
@@ -388,8 +393,8 @@ export default function Home() {
                     ></path>
                   </svg>
                   <span>
-                    Free updates:{" "}
-                    <span className="font-semibold">6 months</span>
+                    Consultoría con Abogado y Contador:{" "}
+                    <span className="font-semibold">1h c/u</span>
                   </span>
                 </li>
               </ul>
@@ -405,11 +410,14 @@ export default function Home() {
             <div className="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white shadow-xl transition hover:border-purple-700 hover:shadow-purple-700">
               <h3 className="mb-4 text-2xl font-semibold">Intermedio</h3>
               <p className="font-light text-gray-500 sm:text-lg dark:text-gray-400">
-                Necesito que me acompañen en el proceso.
+                {/*Tengo noción a grandes rasgos pero necesito que me acompañen.*/}{" "}
+                Asistencia integral activa y consistente
               </p>
               <div className="flex justify-center items-baseline my-8">
-                <span className="mr-2 text-5xl font-extrabold">$99</span>
-                <span className="text-gray-500 dark:text-gray-400">/month</span>
+                <span className="mr-2 text-5xl font-extrabold">$89.900</span>
+                <span className="text-gray-500 text-2xl dark:text-gray-400">
+                  /mes
+                </span>
               </div>
               {/* <!-- List --> */}
               <ul role="list" className="mb-8 space-y-4 text-left">
@@ -427,7 +435,7 @@ export default function Home() {
                       clipRule="evenodd"
                     ></path>
                   </svg>
-                  <span>Individual configuration</span>
+                  <span>Calendario de contenidos gestionado</span>
                 </li>
                 <li className="flex items-center space-x-3">
                   {/* <!-- Icon --> */}
@@ -443,7 +451,7 @@ export default function Home() {
                       clipRule="evenodd"
                     ></path>
                   </svg>
-                  <span>No setup, or hidden fees</span>
+                  <span>Campañas publicitarias: 3</span>
                 </li>
                 <li className="flex items-center space-x-3">
                   {/* <!-- Icon --> */}
@@ -460,8 +468,8 @@ export default function Home() {
                     ></path>
                   </svg>
                   <span>
-                    Team size:{" "}
-                    <span className="font-semibold">10 developers</span>
+                    Gestión digital de clientes:{" "}
+                    <span className="font-semibold">3h/día *</span>
                   </span>
                 </li>
                 <li className="flex items-center space-x-3">
@@ -479,8 +487,8 @@ export default function Home() {
                     ></path>
                   </svg>
                   <span>
-                    Premium support:{" "}
-                    <span className="font-semibold">24 months</span>
+                    Análisis y gestión de recursos{" "}
+                    <span className="font-semibold">3h</span>
                   </span>
                 </li>
                 <li className="flex items-center space-x-3">
@@ -498,8 +506,8 @@ export default function Home() {
                     ></path>
                   </svg>
                   <span>
-                    Free updates:{" "}
-                    <span className="font-semibold">24 months</span>
+                    Consultoría con Abogado y Contador:{" "}
+                    <span className="font-semibold">3h</span>
                   </span>
                 </li>
               </ul>
@@ -515,11 +523,13 @@ export default function Home() {
             <div className="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white shadow-xl transition hover:border-purple-700 hover:shadow-purple-700">
               <h3 className="mb-4 text-2xl font-semibold">Avanzado</h3>
               <p className="font-light text-gray-500 sm:text-lg dark:text-gray-400">
-                "Tengo una idea pero no se por donde comenzar ni que hacer."
+                {/* "Tengo una idea pero no se por donde comenzar ni que hacer." */} Asistencia integral intensiva para tu negocio
               </p>
               <div className="flex justify-center items-baseline my-8">
-                <span className="mr-2 text-5xl font-extrabold">$499</span>
-                <span className="text-gray-500 dark:text-gray-400">/month</span>
+                <span className="mr-2 text-5xl font-extrabold">$139.900</span>
+                <span className="text-gray-500 text-2xl dark:text-gray-400">
+                  /mes
+                </span>
               </div>
               {/* <!-- List --> */}
               <ul role="list" className="mb-8 space-y-4 text-left">
@@ -537,7 +547,7 @@ export default function Home() {
                       clipRule="evenodd"
                     ></path>
                   </svg>
-                  <span>Individual configuration</span>
+                  <span>Calendario de contenidos gestionado</span>
                 </li>
                 <li className="flex items-center space-x-3">
                   {/* <!-- Icon --> */}
@@ -553,7 +563,7 @@ export default function Home() {
                       clipRule="evenodd"
                     ></path>
                   </svg>
-                  <span>No setup, or hidden fees</span>
+                  <span>Campañas publicitarias: 5</span>
                 </li>
                 <li className="flex items-center space-x-3">
                   {/* <!-- Icon --> */}
@@ -570,8 +580,8 @@ export default function Home() {
                     ></path>
                   </svg>
                   <span>
-                    Team size:{" "}
-                    <span className="font-semibold">100+ developers</span>
+                    Gestión digital de clientes:{" "}
+                    <span className="font-semibold">5h/día *</span>
                   </span>
                 </li>
                 <li className="flex items-center space-x-3">
@@ -589,8 +599,8 @@ export default function Home() {
                     ></path>
                   </svg>
                   <span>
-                    Premium support:{" "}
-                    <span className="font-semibold">36 months</span>
+                    Análisis y gestión de recursos{" "}
+                    <span className="font-semibold">5h</span>
                   </span>
                 </li>
                 <li className="flex items-center space-x-3">
@@ -608,8 +618,8 @@ export default function Home() {
                     ></path>
                   </svg>
                   <span>
-                    Free updates:{" "}
-                    <span className="font-semibold">36 months</span>
+                    Consultoría con Abogado y Contador:{" "}
+                    <span className="font-semibold">4h</span>
                   </span>
                 </li>
               </ul>
@@ -643,7 +653,8 @@ export default function Home() {
               Nuestro Equipo
             </h2>
             <p className="font-light text-gray-500 sm:text-xl dark:text-gray-400">
-              Un equipo altamente diversificado en su formación pero con la misma visión y vocación.
+              Un equipo altamente diversificado en su formación pero con la
+              misma vocación y visión.
             </p>
           </div>
           <div className="grid gap-8 lg:gap-16 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
