@@ -44,7 +44,7 @@ export default function Home() {
               Potenciá tu negocio
             </h2>
 
-            <p className="mb-8 font-light text-gray-500 lg:mb-16 sm:text-xl dark:text-gray-400">
+            <p className="mb-8 font-light lg:mb-16 sm:text-xl text-gray-400">
               Con nuestros servicios podrás enfocar tus esfuerzos en el
               desarrollo de tu actividad mientras delegas en nosotros tareas
               complementarias, lo que permitirá que tengas un crecimiento
@@ -274,38 +274,36 @@ export default function Home() {
       {/* -------------------- */}
 
       {/* Acá comienza Pricing */}
-      <section className="bg-white dark:bg-gray-900" id="pricing">
+      <section className="bg-gray-900" id="pricing">
         <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
           <div className="mx-auto max-w-screen-md text-center mb-8 lg:mb-12">
-            <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
+            <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-white">
               Diseñado para cumplir con tus necesidades
             </h2>
-            <p className="mb-5 font-light text-gray-500 sm:text-xl dark:text-gray-400">
+            <p className="mb-5 font-light sm:text-xl text-gray-400">
               Ofrecemos tres opciones de contratación para simplificarte la
               vida, aunque si lo precisas podemos dar una solución a medida.
             </p>
           </div>
           <div className="space-y-8 lg:grid lg:grid-cols-3 sm:gap-6 xl:gap-10 lg:space-y-0">
             {/* <!-- Pricing Card --> */}
-            <div className="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white shadow-xl transition hover:border-purple-700 hover:shadow-purple-700">
+            <div className="flex flex-col p-6 mx-auto max-w-lg text-center rounded-lg border border-gray-600 xl:p-8 bg-gray-800 text-white shadow-xl transition hover:border-purple-700 hover:shadow-purple-700">
               <h3 className="mb-4 text-2xl font-semibold">Básico</h3>
-              <p className="font-light text-gray-500 sm:text-lg dark:text-gray-400">
+              <p className="font-light sm:text-lg text-gray-400">
                 {/* "Tengo en claro que hacer, pero me vendría bien un poco de
                 ayuda." */}{" "}
                 Un pequeño empujón para asistirte con tus tareas
               </p>
               <div className="flex justify-center items-baseline my-8">
                 <span className="mr-2 text-5xl font-extrabold">$69.900</span>
-                <span className="text-gray-500 text-2xl dark:text-gray-400">
-                  /mes
-                </span>
+                <span className="text-2xl text-gray-400">/mes</span>
               </div>
               {/* <!-- List --> */}
               <ul role="list" className="mb-8 space-y-4 text-left">
                 <li className="flex items-center space-x-3">
                   {/* <!-- Icon --> */}
                   <svg
-                    className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
+                    className="flex-shrink-0 w-5 h-5 text-green-400"
                     fill="currentColor"
                     viewBox="0 0 20 20"
                     xmlns="http://www.w3.org/2000/svg"
@@ -321,7 +319,7 @@ export default function Home() {
                 <li className="flex items-center space-x-3">
                   {/* <!-- Icon --> */}
                   <svg
-                    className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
+                    className="flex-shrink-0 w-5 h-5 text-green-400"
                     fill="currentColor"
                     viewBox="0 0 20 20"
                     xmlns="http://www.w3.org/2000/svg"
@@ -337,7 +335,7 @@ export default function Home() {
                 <li className="flex items-center space-x-3">
                   {/* <!-- Icon --> */}
                   <svg
-                    className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
+                    className="flex-shrink-0 w-5 h-5 text-green-400"
                     fill="currentColor"
                     viewBox="0 0 20 20"
                     xmlns="http://www.w3.org/2000/svg"
@@ -357,7 +355,7 @@ export default function Home() {
                 <li className="flex items-center space-x-3">
                   {/* <!-- Icon --> */}
                   <svg
-                    className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
+                    className="flex-shrink-0 w-5 h-5 text-green-400"
                     fill="currentColor"
                     viewBox="0 0 20 20"
                     xmlns="http://www.w3.org/2000/svg"
@@ -376,7 +374,7 @@ export default function Home() {
                 <li className="flex items-center space-x-3">
                   {/* <!-- Icon --> */}
                   <svg
-                    className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
+                    className="flex-shrink-0 w-5 h-5 text-green-400"
                     fill="currentColor"
                     viewBox="0 0 20 20"
                     xmlns="http://www.w3.org/2000/svg"
@@ -396,30 +394,28 @@ export default function Home() {
               <a
                 href="https://wa.link/lh8lim"
                 target="_blank"
-                className="text-white bg-purple-700 hover:bg-purple-900 focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-primary-900"
+                className=" bg-purple-700 hover:bg-purple-900 focus:ring-4 font-medium rounded-lg text-sm px-5 py-2.5 text-center text-white focus:ring-primary-900"
               >
                 Contratar
               </a>
             </div>
             {/* <!-- Pricing Card --> */}
-            <div className="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white shadow-xl transition hover:border-purple-700 hover:shadow-purple-700">
+            <div className="flex flex-col p-6 mx-auto max-w-lg text-center rounded-lg border border-gray-600 xl:p-8 bg-gray-800 text-white shadow-xl transition hover:border-purple-700 hover:shadow-purple-700">
               <h3 className="mb-4 text-2xl font-semibold">Intermedio</h3>
-              <p className="font-light text-gray-500 sm:text-lg dark:text-gray-400">
+              <p className="font-light sm:text-lg text-gray-400">
                 {/*Tengo noción a grandes rasgos pero necesito que me acompañen.*/}{" "}
                 Asistencia integral activa y consistente
               </p>
               <div className="flex justify-center items-baseline my-8">
                 <span className="mr-2 text-5xl font-extrabold">$89.900</span>
-                <span className="text-gray-500 text-2xl dark:text-gray-400">
-                  /mes
-                </span>
+                <span className=" text-2xl text-gray-400">/mes</span>
               </div>
               {/* <!-- List --> */}
               <ul role="list" className="mb-8 space-y-4 text-left">
                 <li className="flex items-center space-x-3">
                   {/* <!-- Icon --> */}
                   <svg
-                    className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
+                    className="flex-shrink-0 w-5 h-5 text-green-400"
                     fill="currentColor"
                     viewBox="0 0 20 20"
                     xmlns="http://www.w3.org/2000/svg"
@@ -435,7 +431,7 @@ export default function Home() {
                 <li className="flex items-center space-x-3">
                   {/* <!-- Icon --> */}
                   <svg
-                    className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
+                    className="flex-shrink-0 w-5 h-5 text-green-400"
                     fill="currentColor"
                     viewBox="0 0 20 20"
                     xmlns="http://www.w3.org/2000/svg"
@@ -451,7 +447,7 @@ export default function Home() {
                 <li className="flex items-center space-x-3">
                   {/* <!-- Icon --> */}
                   <svg
-                    className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
+                    className="flex-shrink-0 w-5 h-5 text-green-400"
                     fill="currentColor"
                     viewBox="0 0 20 20"
                     xmlns="http://www.w3.org/2000/svg"
@@ -470,7 +466,7 @@ export default function Home() {
                 <li className="flex items-center space-x-3">
                   {/* <!-- Icon --> */}
                   <svg
-                    className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
+                    className="flex-shrink-0 w-5 h-5 text-green-400"
                     fill="currentColor"
                     viewBox="0 0 20 20"
                     xmlns="http://www.w3.org/2000/svg"
@@ -489,7 +485,7 @@ export default function Home() {
                 <li className="flex items-center space-x-3">
                   {/* <!-- Icon --> */}
                   <svg
-                    className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
+                    className="flex-shrink-0 w-5 h-5 text-green-400"
                     fill="currentColor"
                     viewBox="0 0 20 20"
                     xmlns="http://www.w3.org/2000/svg"
@@ -509,30 +505,28 @@ export default function Home() {
               <a
                 href="https://wa.link/5j29hd"
                 target="_blank"
-                className="text-white bg-purple-700 hover:bg-purple-900 focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-primary-900"
+                className="bg-purple-700 hover:bg-purple-900 focus:ring-4 font-medium rounded-lg text-sm px-5 py-2.5 text-center text-white  focus:ring-primary-900"
               >
                 Contratar
               </a>
             </div>
             {/* <!-- Pricing Card --> */}
-            <div className="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white shadow-xl transition hover:border-purple-700 hover:shadow-purple-700">
+            <div className="flex flex-col p-6 mx-auto max-w-lg text-center rounded-lg border  border-gray-600 xl:p-8 bg-gray-800 text-white shadow-xl transition hover:border-purple-700 hover:shadow-purple-700">
               <h3 className="mb-4 text-2xl font-semibold">Avanzado</h3>
-              <p className="font-light text-gray-500 sm:text-lg dark:text-gray-400">
+              <p className="font-light sm:text-lg text-gray-400">
                 {/* "Tengo una idea pero no se por donde comenzar ni que hacer." */}{" "}
                 Asistencia integral intensiva para tu negocio
               </p>
               <div className="flex justify-center items-baseline my-8">
                 <span className="mr-2 text-5xl font-extrabold">$139.900</span>
-                <span className="text-gray-500 text-2xl dark:text-gray-400">
-                  /mes
-                </span>
+                <span className="text-2xl text-gray-400">/mes</span>
               </div>
               {/* <!-- List --> */}
               <ul role="list" className="mb-8 space-y-4 text-left">
                 <li className="flex items-center space-x-3">
                   {/* <!-- Icon --> */}
                   <svg
-                    className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
+                    className="flex-shrink-0 w-5 h-5 text-green-400"
                     fill="currentColor"
                     viewBox="0 0 20 20"
                     xmlns="http://www.w3.org/2000/svg"
@@ -548,7 +542,7 @@ export default function Home() {
                 <li className="flex items-center space-x-3">
                   {/* <!-- Icon --> */}
                   <svg
-                    className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
+                    className="flex-shrink-0 w-5 h-5 text-green-400"
                     fill="currentColor"
                     viewBox="0 0 20 20"
                     xmlns="http://www.w3.org/2000/svg"
@@ -564,7 +558,7 @@ export default function Home() {
                 <li className="flex items-center space-x-3">
                   {/* <!-- Icon --> */}
                   <svg
-                    className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
+                    className="flex-shrink-0 w-5 h-5 text-green-400"
                     fill="currentColor"
                     viewBox="0 0 20 20"
                     xmlns="http://www.w3.org/2000/svg"
@@ -583,7 +577,7 @@ export default function Home() {
                 <li className="flex items-center space-x-3">
                   {/* <!-- Icon --> */}
                   <svg
-                    className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
+                    className="flex-shrink-0 w-5 h-5 text-green-400"
                     fill="currentColor"
                     viewBox="0 0 20 20"
                     xmlns="http://www.w3.org/2000/svg"
@@ -602,7 +596,7 @@ export default function Home() {
                 <li className="flex items-center space-x-3">
                   {/* <!-- Icon --> */}
                   <svg
-                    className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400"
+                    className="flex-shrink-0 w-5 h-5 text-green-400"
                     fill="currentColor"
                     viewBox="0 0 20 20"
                     xmlns="http://www.w3.org/2000/svg"
@@ -622,7 +616,7 @@ export default function Home() {
               <a
                 href="https://wa.link/37z4w2"
                 target="_blank"
-                className="text-white bg-purple-700 hover:bg-purple-900 focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-primary-900"
+                className="bg-purple-700 hover:bg-purple-900 focus:ring-4  font-medium rounded-lg text-sm px-5 py-2.5 text-center text-white focus:ring-primary-900"
               >
                 Contratar
               </a>
@@ -642,36 +636,36 @@ export default function Home() {
       {/* -------------------- */}
 
       {/* Acá comienza El Equipo */}
-      <section className="bg-white dark:bg-gray-900" id="our-team">
+      <section className="bg-gray-900" id="our-team">
         <div className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-6">
           <div className="mx-auto mb-8 max-w-screen-sm lg:mb-16">
-            <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
+            <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-white">
               Nuestro Equipo
             </h2>
-            <p className="font-light text-gray-500 sm:text-xl dark:text-gray-400">
+            <p className="font-light sm:text-xl text-gray-400">
               Un equipo altamente diversificado en su formación pero con la
               misma vocación y visión.
             </p>
           </div>
           <div className="grid gap-8 lg:gap-16 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-            <div className="text-center text-gray-500 dark:text-gray-400">
+            <div className="text-center text-gray-400">
               <img
                 className="mx-auto mb-4 w-36 h-36 rounded-full"
                 src="imagenAna.jpeg"
                 alt="Ana Bortel"
               ></img>
-              <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+              <h3 className="mb-1 text-2xl font-bold tracking-tight text-white">
                 Ana Bortel
               </h3>
               <p>Community Manager</p>
             </div>
-            <div className="text-center text-gray-500 dark:text-gray-400">
+            <div className="text-center text-gray-400">
               <img
                 className="mx-auto mb-4 w-36 h-36 rounded-full"
                 src="imagenFacu.jpg"
                 alt="Facundo Adaro"
               ></img>
-              <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+              <h3 className="mb-1 text-2xl font-bold tracking-tight text-white">
                 Facundo Adaro
               </h3>
               <p>Ingeniero Industrial | Desarrollador</p>
@@ -687,24 +681,24 @@ export default function Home() {
               </h3>
               <p>Contadora</p>
             </div> */}
-            <div className="text-center text-gray-500 dark:text-gray-400">
+            <div className="text-center text-gray-400">
               <img
                 className="mx-auto mb-4 w-36 h-36 rounded-full"
                 src="imagenAntonella.jpeg"
                 alt="Antonella Stancado"
               ></img>
-              <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+              <h3 className="mb-1 text-2xl font-bold tracking-tight text-white">
                 Antonella Stancado
               </h3>
               <p>Lic. en Publicidad</p>
             </div>
-            <div className="text-center text-gray-500 dark:text-gray-400">
+            <div className="text-center text-gray-400">
               <img
                 className="mx-auto mb-4 w-36 h-36 rounded-full"
                 src="imagenFer.jpeg"
                 alt="Fernando Petrillo"
               ></img>
-              <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+              <h3 className="mb-1 text-2xl font-bold tracking-tight text-white">
                 Fernando Petrillo
               </h3>
               <p>Diseñador</p>
