@@ -1,6 +1,6 @@
 export default function Header() {
   return (
-    <nav className="fixed top-0 w-full border-gray-200 bg-gray-900">
+    <nav className="fixed z-40 top-0 w-full border-gray-200 bg-gray-900">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-2">
         <a
           href="#hero-section"
@@ -69,14 +69,14 @@ export default function Header() {
                 Planes
               </a>
             </li>
-            <li>
+            {/*           <li>
               <a
                 href="#our-team"
                 className="block py-2 px-3 md:p-0 rounded md:hover:text-purple-700 text-white hover:bg-gray-700 hover:text-white md:hover:bg-transparent border-gray-700"
               >
                 Nuestro Equipo
               </a>
-            </li>
+            </li> */}
             {/* <li>
               <a
                 href="#faqs"

@@ -275,8 +275,8 @@ export default function Home() {
 
       {/* Acá comienza Pricing */}
       <section className="bg-gray-900" id="pricing">
-        <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
-          <div className="mx-auto max-w-screen-md text-center mb-8 lg:mb-12">
+        <div className="py-12 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
+          <div className="mx-auto py-4 max-w-screen-md text-center mb-8 lg:mb-12">
             <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-white">
               Diseñado para cumplir con tus necesidades
             </h2>
@@ -285,23 +285,25 @@ export default function Home() {
               vida, aunque si lo precisas podemos dar una solución a medida.
             </p>
           </div>
-          <div className="space-y-8 lg:grid lg:grid-cols-3 sm:gap-6 xl:gap-10 lg:space-y-0">
-            {/* <!-- Pricing Card --> */}
-            <div className="flex flex-col p-6 mx-auto max-w-lg text-center rounded-lg border border-gray-600 xl:p-8 bg-gray-800 text-white shadow-xl transition hover:border-purple-700 hover:shadow-purple-700">
-              <h3 className="mb-4 text-2xl font-semibold">Básico</h3>
-              <p className="font-light sm:text-lg text-gray-400">
-                {/* "Tengo en claro que hacer, pero me vendría bien un poco de
-                ayuda." */}{" "}
-                Un pequeño empujón para asistirte con tus tareas
-              </p>
+          <div className="space-y-8 pt-4 lg:grid lg:grid-cols-3 sm:gap-6 xl:gap-10 lg:space-y-0">
+            {/* <!-- Pricing Card STANDARD --> */}
+            <div className="flex flex-col h-full p-6 mx-auto max-w-lg text-center rounded-lg border border-gray-600 xl:p-8 bg-gray-800 text-white shadow-xl transition hover:border-purple-700 hover:shadow-purple-700">
+              <div className="mb-4 min-h-[160px]">
+                <h3 className="mb-4 text-2xl font-semibold">STANDARD</h3>
+                <p className="font-light sm:text-lg text-gray-400">
+                  {/* "Tengo en claro que hacer, pero me vendría bien un poco de
+            ayuda." */}{" "}
+                  Una opción accesible para quienes desean comenzar a tener
+                  presencia profesional sin una gran inversión
+                </p>
+              </div>
               <div className="flex justify-center items-baseline my-8">
-                <span className="mr-2 text-5xl font-extrabold">$69.900</span>
+                <span className="mr-2 text-5xl font-extrabold">$100.000</span>
                 <span className="text-2xl text-gray-400">/mes</span>
               </div>
               {/* <!-- List --> */}
-              <ul role="list" className="mb-8 space-y-4 text-left">
+              <ul role="list" className="mb-8 space-y-4 text-left flex-1">
                 <li className="flex items-center space-x-3">
-                  {/* <!-- Icon --> */}
                   <svg
                     className="flex-shrink-0 w-5 h-5 text-green-400"
                     fill="currentColor"
@@ -314,10 +316,9 @@ export default function Home() {
                       clipRule="evenodd"
                     ></path>
                   </svg>
-                  <span>Autogestión de calendario</span>
+                  <span>4 posteos mensuales</span>
                 </li>
                 <li className="flex items-center space-x-3">
-                  {/* <!-- Icon --> */}
                   <svg
                     className="flex-shrink-0 w-5 h-5 text-green-400"
                     fill="currentColor"
@@ -330,10 +331,9 @@ export default function Home() {
                       clipRule="evenodd"
                     ></path>
                   </svg>
-                  <span>Campañas publicitarias: 1</span>
+                  <span>10 historias mensuales</span>
                 </li>
                 <li className="flex items-center space-x-3">
-                  {/* <!-- Icon --> */}
                   <svg
                     className="flex-shrink-0 w-5 h-5 text-green-400"
                     fill="currentColor"
@@ -347,13 +347,12 @@ export default function Home() {
                     ></path>
                   </svg>
                   <span>
-                    Respuesta automática a clientes
+                    1 reel mensual
                     {/* {" "}
-                    <span className="font-semibold"></span> */}
+              <span className="font-semibold"></span> */}
                   </span>
                 </li>
                 <li className="flex items-center space-x-3">
-                  {/* <!-- Icon --> */}
                   <svg
                     className="flex-shrink-0 w-5 h-5 text-green-400"
                     fill="currentColor"
@@ -367,12 +366,11 @@ export default function Home() {
                     ></path>
                   </svg>
                   <span>
-                    Sugerencias de recursos{" "}
+                    Optimización de perfil básica{" "}
                     {/* <span className="font-semibold">1h c/u</span> */}
                   </span>
                 </li>
                 <li className="flex items-center space-x-3">
-                  {/* <!-- Icon --> */}
                   <svg
                     className="flex-shrink-0 w-5 h-5 text-green-400"
                     fill="currentColor"
@@ -386,34 +384,40 @@ export default function Home() {
                     ></path>
                   </svg>
                   <span>
-                    Consultoría con Abogado y Contador:{" "}
-                    <span className="font-semibold">1h c/u</span>
+                    Ideas y creación de contenido{" "}
+                    {/*<span className="font-semibold">1h c/u</span>*/}
                   </span>
                 </li>
               </ul>
               <a
                 href="https://wa.link/lh8lim"
                 target="_blank"
-                className=" bg-purple-700 hover:bg-purple-900 focus:ring-4 font-medium rounded-lg text-sm px-5 py-2.5 text-center text-white focus:ring-primary-900"
+                className="bg-purple-700 hover:bg-purple-900 focus:ring-4 font-medium rounded-lg text-sm px-5 py-2.5 text-center text-white focus:ring-primary-900"
               >
                 Contratar
               </a>
             </div>
-            {/* <!-- Pricing Card --> */}
-            <div className="flex flex-col p-6 mx-auto max-w-lg text-center rounded-lg border border-gray-600 xl:p-8 bg-gray-800 text-white shadow-xl transition hover:border-purple-700 hover:shadow-purple-700">
-              <h3 className="mb-4 text-2xl font-semibold">Intermedio</h3>
-              <p className="font-light sm:text-lg text-gray-400">
-                {/*Tengo noción a grandes rasgos pero necesito que me acompañen.*/}{" "}
-                Asistencia integral activa y consistente
-              </p>
+
+            {/* <!-- Pricing Card PREMIUM --> */}
+            <div className="relative -z-3 flex flex-col h-full p-6 mx-auto max-w-lg text-center rounded-lg border border-purple-500 xl:p-8 bg-gray-800 text-white shadow-2xl transition hover:border-purple-700 hover:shadow-purple-700 lg:-translate-y-2 lg:scale-[1.02]">
+              <span className="absolute -top-4 left-4 font-light text-2xl italic text-purple-200">
+                más elegido
+              </span>
+              <div className="mb-4 min-h-[160px]">
+                <h3 className="mb-4 text-2xl font-semibold">PREMIUM</h3>
+                <p className="font-light sm:text-lg text-gray-400">
+                  {/*Tengo noción a grandes rasgos pero necesito que me acompañen.*/}{" "}
+                  Ideal para marcas que están comenzando o buscan mantener
+                  presencia constante en redes
+                </p>
+              </div>
               <div className="flex justify-center items-baseline my-8">
-                <span className="mr-2 text-5xl font-extrabold">$89.900</span>
+                <span className="mr-2 text-5xl font-extrabold">$175.000</span>
                 <span className=" text-2xl text-gray-400">/mes</span>
               </div>
               {/* <!-- List --> */}
-              <ul role="list" className="mb-8 space-y-4 text-left">
+              <ul role="list" className="mb-8 space-y-4 text-left flex-1">
                 <li className="flex items-center space-x-3">
-                  {/* <!-- Icon --> */}
                   <svg
                     className="flex-shrink-0 w-5 h-5 text-green-400"
                     fill="currentColor"
@@ -426,10 +430,9 @@ export default function Home() {
                       clipRule="evenodd"
                     ></path>
                   </svg>
-                  <span>Calendario de contenidos gestionado</span>
+                  <span>8 posteos mensuales</span>
                 </li>
                 <li className="flex items-center space-x-3">
-                  {/* <!-- Icon --> */}
                   <svg
                     className="flex-shrink-0 w-5 h-5 text-green-400"
                     fill="currentColor"
@@ -442,10 +445,9 @@ export default function Home() {
                       clipRule="evenodd"
                     ></path>
                   </svg>
-                  <span>Campañas publicitarias: 3</span>
+                  <span>25 historias mensuales</span>
                 </li>
                 <li className="flex items-center space-x-3">
-                  {/* <!-- Icon --> */}
                   <svg
                     className="flex-shrink-0 w-5 h-5 text-green-400"
                     fill="currentColor"
@@ -459,12 +461,11 @@ export default function Home() {
                     ></path>
                   </svg>
                   <span>
-                    Gestión digital de clientes:{" "}
-                    <span className="font-semibold">3h/día *</span>
+                    2 reel mensuales{" "}
+                    {/* <span className="font-semibold">3h/día *</span> */}
                   </span>
                 </li>
                 <li className="flex items-center space-x-3">
-                  {/* <!-- Icon --> */}
                   <svg
                     className="flex-shrink-0 w-5 h-5 text-green-400"
                     fill="currentColor"
@@ -478,12 +479,11 @@ export default function Home() {
                     ></path>
                   </svg>
                   <span>
-                    Análisis y gestión de recursos{" "}
-                    <span className="font-semibold">3h</span>
+                    Diseño de historias destacadas{" "}
+                    {/* <span className="font-semibold">3h</span> */}
                   </span>
                 </li>
                 <li className="flex items-center space-x-3">
-                  {/* <!-- Icon --> */}
                   <svg
                     className="flex-shrink-0 w-5 h-5 text-green-400"
                     fill="currentColor"
@@ -497,8 +497,27 @@ export default function Home() {
                     ></path>
                   </svg>
                   <span>
-                    Consultoría con Abogado y Contador:{" "}
-                    <span className="font-semibold">3h c/u</span>
+                    Optimización del perfil{" "}
+                    {/* <span className="font-semibold">3h c/u</span> */}
+                  </span>
+                </li>
+                <li className="flex items-center space-x-3">
+                  <svg
+                    className="flex-shrink-0 w-5 h-5 text-green-400"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                      clipRule="evenodd"
+                    ></path>
+                  </svg>
+                  <span>
+                    Calendario de contenido + estrategia mensual. Ideas y
+                    creación de contenido{" "}
+                    {/* <span className="font-semibold">3h c/u</span> */}
                   </span>
                 </li>
               </ul>
@@ -510,21 +529,24 @@ export default function Home() {
                 Contratar
               </a>
             </div>
-            {/* <!-- Pricing Card --> */}
-            <div className="flex flex-col p-6 mx-auto max-w-lg text-center rounded-lg border  border-gray-600 xl:p-8 bg-gray-800 text-white shadow-xl transition hover:border-purple-700 hover:shadow-purple-700">
-              <h3 className="mb-4 text-2xl font-semibold">Avanzado</h3>
-              <p className="font-light sm:text-lg text-gray-400">
-                {/* "Tengo una idea pero no se por donde comenzar ni que hacer." */}{" "}
-                Asistencia integral intensiva para tu negocio
-              </p>
+
+            {/* <!-- Pricing Card ELITE --> */}
+            <div className="flex flex-col h-full p-6 mx-auto max-w-lg text-center rounded-lg border border-gray-600 xl:p-8 bg-gray-800 text-white shadow-xl transition hover:border-purple-700 hover:shadow-purple-700">
+              <div className="mb-4 min-h-[160px]">
+                <h3 className="mb-4 text-2xl font-semibold">ELITE</h3>
+                <p className="font-light sm:text-lg text-gray-400">
+                  {/* "Tengo una idea pero no se por donde comenzar ni que hacer." */}{" "}
+                  Pensado para marcas que quieren potenciar su crecimiento,
+                  aumentar su alcance y generar mayor conexión con su audiencia
+                </p>
+              </div>
               <div className="flex justify-center items-baseline my-8">
-                <span className="mr-2 text-5xl font-extrabold">$139.900</span>
+                <span className="mr-2 text-5xl font-extrabold">$250.000</span>
                 <span className="text-2xl text-gray-400">/mes</span>
               </div>
               {/* <!-- List --> */}
-              <ul role="list" className="mb-8 space-y-4 text-left">
+              <ul role="list" className="mb-8 space-y-4 text-left flex-1">
                 <li className="flex items-center space-x-3">
-                  {/* <!-- Icon --> */}
                   <svg
                     className="flex-shrink-0 w-5 h-5 text-green-400"
                     fill="currentColor"
@@ -537,10 +559,9 @@ export default function Home() {
                       clipRule="evenodd"
                     ></path>
                   </svg>
-                  <span>Calendario de contenidos gestionado</span>
+                  <span>12 posteos mensuales</span>
                 </li>
                 <li className="flex items-center space-x-3">
-                  {/* <!-- Icon --> */}
                   <svg
                     className="flex-shrink-0 w-5 h-5 text-green-400"
                     fill="currentColor"
@@ -553,10 +574,9 @@ export default function Home() {
                       clipRule="evenodd"
                     ></path>
                   </svg>
-                  <span>Campañas publicitarias: 5</span>
+                  <span>40 historias mensuales</span>
                 </li>
                 <li className="flex items-center space-x-3">
-                  {/* <!-- Icon --> */}
                   <svg
                     className="flex-shrink-0 w-5 h-5 text-green-400"
                     fill="currentColor"
@@ -570,12 +590,11 @@ export default function Home() {
                     ></path>
                   </svg>
                   <span>
-                    Gestión digital de clientes:{" "}
-                    <span className="font-semibold">5h/día *</span>
+                    6 reel mensuales{" "}
+                    {/* <span className="font-semibold">3h/día *</span> */}
                   </span>
                 </li>
                 <li className="flex items-center space-x-3">
-                  {/* <!-- Icon --> */}
                   <svg
                     className="flex-shrink-0 w-5 h-5 text-green-400"
                     fill="currentColor"
@@ -589,12 +608,11 @@ export default function Home() {
                     ></path>
                   </svg>
                   <span>
-                    Análisis y gestión de recursos{" "}
-                    <span className="font-semibold">5h</span>
+                    Diseño de historias destacadas{" "}
+                    {/* <span className="font-semibold">3h</span> */}
                   </span>
                 </li>
                 <li className="flex items-center space-x-3">
-                  {/* <!-- Icon --> */}
                   <svg
                     className="flex-shrink-0 w-5 h-5 text-green-400"
                     fill="currentColor"
@@ -608,8 +626,45 @@ export default function Home() {
                     ></path>
                   </svg>
                   <span>
-                    Consultoría con Abogado y Contador:{" "}
-                    <span className="font-semibold">4h c/u</span>
+                    Optimización del perfil{" "}
+                    {/* <span className="font-semibold">3h c/u</span> */}
+                  </span>
+                </li>
+                <li className="flex items-center space-x-3">
+                  <svg
+                    className="flex-shrink-0 w-5 h-5 text-green-400"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                      clipRule="evenodd"
+                    ></path>
+                  </svg>
+                  <span>
+                    Calendario de contenido + estrategia mensual. Ideas y
+                    creación de contenido{" "}
+                    {/* <span className="font-semibold">3h c/u</span> */}
+                  </span>
+                </li>
+                <li className="flex items-center space-x-3">
+                  <svg
+                    className="flex-shrink-0 w-5 h-5 text-green-400"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                      clipRule="evenodd"
+                    ></path>
+                  </svg>
+                  <span>
+                    Asesoramiento en tendencias y mejores prácticas{" "}
+                    {/* <span className="font-semibold">3h c/u</span> */}
                   </span>
                 </li>
               </ul>
@@ -622,7 +677,7 @@ export default function Home() {
               </a>
             </div>
           </div>
-          <div className="mt-16 text-center">
+          <div className="mt-16 py-8 text-center">
             <a
               href="https://wa.link/57d9yf"
               target="_blank"
@@ -633,10 +688,11 @@ export default function Home() {
           </div>
         </div>
       </section>
+
       {/* -------------------- */}
 
       {/* Acá comienza El Equipo */}
-      <section className="bg-gray-900" id="our-team">
+      {/*  <section className="bg-gray-900" id="our-team">
         <div className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-6">
           <div className="mx-auto mb-8 max-w-screen-sm lg:mb-16">
             <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-white">
@@ -670,7 +726,7 @@ export default function Home() {
               </h3>
               <p>Ingeniero Industrial | Desarrollador</p>
             </div>
-            {/* <div className="text-center text-gray-500 dark:text-gray-400">
+            <div className="text-center text-gray-500 dark:text-gray-400">
               <img
                 className="mx-auto mb-4 w-36 h-36 rounded-full"
                 src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/jese-leos.png"
@@ -680,7 +736,7 @@ export default function Home() {
                 Flavia Nobile
               </h3>
               <p>Contadora</p>
-            </div> */}
+            </div>
             <div className="text-center text-gray-400">
               <img
                 className="mx-auto mb-4 w-36 h-36 rounded-full"
@@ -703,7 +759,6 @@ export default function Home() {
               </h3>
               <p>Diseñador</p>
             </div>
-            {/*
             <div className="text-center text-gray-500 dark:text-gray-400">
               <img
                 className="mx-auto mb-4 w-36 h-36 rounded-full"
@@ -736,10 +791,10 @@ export default function Home() {
                 <a href="#">Neil Sims</a>
               </h3>
               <p>Vue.js Developer</p>
-            </div> */}
+            </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Acá comienzan FAQs */}
       {/* <section className="bg-white dark:bg-gray-900" id="faqs">
